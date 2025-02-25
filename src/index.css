@@ -11,3 +11,14 @@
 body {
     @apply bg-gray-900;
 }
+
+@theme {
+    --font-fancy: "Old Standard TT", serif;
+    --font-body: "Roboto", sans-serif;
+    --font-display: "Exo 2", serif;
+}
+
+::selection {
+    background-color: #f8ff25;
+    color: black;
+}
